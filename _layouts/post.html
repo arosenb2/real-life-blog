@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="{% if page.author %}{{ page.author }}{% endif %} elevate" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h3 itemprop="name headline"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
+        <span class="posted elevate">{{ page.date | date: "%b" }} <strong>{{ page.date | date: "%-d" }}</strong></span>
+    </header>
+    <section itemprop="articleBody">
+        {{ content }}
+    </section>
+    <footer>
+        {% if page.author %}<span class="author">{{ page.author }}</span>{% endif %}
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        <ul class="tags">
+            {% for tag in page.tags %}
+                <li>{{ tag }}</li>
+            {% endfor %}
+        </ul>
+    </footer>
+</article>
