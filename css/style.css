@@ -102,7 +102,8 @@ body section.articles article {
       background: linear-gradient(#222090, #1b1873); }
       body section.articles article header span.posted strong {
         font-weight: 100;
-        font-size: 1.5em; }
+        font-size: 1.5em;
+        display: block; }
   body section.articles article section {
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
