@@ -21,25 +21,6 @@ permalink: :year/:month/:day/:title/index.html
 paginate: 3
 paginate_path: "/page/:num/"
 
-jekyll_timeago:
-    depth: 2 # Level of detail
-    today: 'today'
-    yesterday: 'yesterday'
-    tomorrow: 'tomorrow'
-    and: 'and'
-    suffix: 'ago'
-    prefix: 'around'
-    suffix_future: ''
-    prefix_future: 'in'
-    years: 'years'
-    year: 'year'
-    months: 'months'
-    month: 'month'
-    weeks: 'weeks'
-    week: 'week'
-    days: 'days'
-    day: 'day'
-
 categories:
     generate_all: false
     pagination: 2
@@ -56,4 +37,4 @@ categories:
 markdown: kramdown
 gems:
     - jekyll-paginate
-    - jekyll-timeago
+    - octopress-autoprefixer

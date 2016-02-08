@@ -12,7 +12,7 @@ layout: default
                 {{ post.content }}
             </section>
             <footer>
-                <span>Posted <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | timeago }}</time>{% if post.author %} by <span class="author">{{ post.author }}</span>{% endif %}</span>
+                <span>Posted <time class="timeago" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date }}</time>{% if post.author %} by <span class="author">{{ post.author }}</span>{% endif %}</span>
                 {% if post.tags.size > 0 %}
                 <ul class="tags">
                     {% for tag in post.tags %}
