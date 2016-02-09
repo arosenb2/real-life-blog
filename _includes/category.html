@@ -6,7 +6,7 @@
                 <span class="posted elevate">{{ post.date | date: "%b" }} <strong>{{ post.date | date: "%-d" }}</strong></span>
             </header>
             <section itemprop="articleBody">
-                {{ post.excerpt }}
+                {{ post.content }}
             </section>
             <footer>
                 <span>Posted <time class="timeago" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date }}</time>{% if post.author %} by <span class="author">{{ post.author }}</span>{% endif %}</span>
