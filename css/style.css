@@ -33,7 +33,8 @@ body > header {
 
 body > header h1, body > header h2 {
   margin: 0;
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  text-align: center; }
 
 body section.content {
   width: 960px;
