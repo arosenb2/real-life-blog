@@ -12,7 +12,8 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    background-image: url(bg.png);
+    background: url(bg.png);
+    background-image: url(bg.svg);
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -96,10 +97,6 @@ body section.content aside {
 
         ul {
             list-style: none;
-
-            li {
-                // font-family: 'Shadows Into Light Two', cursive;
-            }
         }
     }
 }

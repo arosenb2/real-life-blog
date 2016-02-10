@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 192" width="256px" height="192px">
+  <defs>
+    <path id="def-triangle" d="M4,0 L0,12 L8,12 Z" />
+    <linearGradient id="pink"><stop stop-color="#fcc0d1" /></linearGradient>
+    <linearGradient id="lightGray"><stop stop-color="#eee" /></linearGradient>
+    <linearGradient id="lightBlue"><stop stop-color="#00e0e8" /></linearGradient>
+    <linearGradient id="yellow"><stop stop-color="#ffed58" /></linearGradient>
+    <linearGradient id="navy"><stop stop-color="#00008a" /></linearGradient>
+  </defs>
+  <use xlink:href="#def-triangle" fill="url(#pink)" transform="translate(30,15) rotate(-16)" />
+  <use xlink:href="#def-triangle" fill="url(#lightGray)" transform="translate(130,15) rotate(-230)" />
+  <use xlink:href="#def-triangle" fill="url(#lightBlue)" transform="translate(240,6) rotate(0)" />
+  <use xlink:href="#def-triangle" fill="url(#yellow)" transform="translate(195,25) rotate(-37)" />
+  <use xlink:href="#def-triangle" fill="url(#navy)" transform="translate(80,40) rotate(-301)" />
+  <use xlink:href="#def-triangle" fill="url(#pink)" transform="translate(160,65) rotate(-158)" />
+  <use xlink:href="#def-triangle" fill="url(#navy)" transform="translate(225,75) rotate(-158)" />
+  <use xlink:href="#def-triangle" fill="url(#lightBlue)" transform="translate(15,80) rotate(-23)" />
+  <use xlink:href="#def-triangle" fill="url(#yellow)" transform="translate(135,120) rotate(-116)" />
+  <use xlink:href="#def-triangle" fill="url(#lightGray)" transform="translate(75,130) rotate(-158)" />
+  <use xlink:href="#def-triangle" fill="url(#lightGray)" transform="translate(205,110) rotate(-23)" />
+  <use xlink:href="#def-triangle" fill="url(#navy)" transform="translate(155,140) rotate(-348)" />
+  <use xlink:href="#def-triangle" fill="url(#lightBlue)" transform="translate(50,165) rotate(-212)" />
+  <use xlink:href="#def-triangle" fill="url(#pink)" transform="translate(105,160) rotate(-23)" />
+  <use xlink:href="#def-triangle" fill="url(#lightBlue)" transform="translate(180,175) rotate(-83)" />
+  <use xlink:href="#def-triangle" fill="url(#yellow)" transform="translate(240,150) rotate(-301)" />
+</svg>
