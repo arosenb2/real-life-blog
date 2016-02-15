@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    
+<head>
     <title>Real Life with Mr. A'baum | Husband + Father + Jack of Some Trades</title>
     <meta charset="utf8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <meta property="og:title" content="Real Life with Mr. A'baum | Husband + Father + Jack of Some Trades" />
+    <meta property="og:url" content="http://reallifewiththeabaums.com/aaron/" />
+    
+    
+
+    
+        <meta name="description" content="We hope that you will be encouraged (or at least amused...) as we try to keep it real around here. We &quot;A&#39;baums&quot; are a party of four living down yonder (ahem, the South...) who are just trying to live our lives for Jesus. We hope that you can see Him here and that you find Him in the midst of your own &quot;real life.&quot;" />
+    
+
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="canonical" href="http://reallifewiththeabaums.com/aaron/">
     <link rel="alternate" type="application/rss+xml" title="Real Life with Mr. A'baum" href="http://reallifewiththeabaums.com/feed.xml">
@@ -118,7 +129,8 @@
 </footer>
 <script src="/js/vendor.min.js"></script>
 <script>
-  $(function() { $(".timeago").each(function(e,a) { $(a).html($.timeago($(a).attr("datetime"))) }) });
+  $(function() {
+    setInterval(function() { $(".timeago").each(function(e,a) { $(a).html($.timeago($(a).attr("datetime"))) }) }, 500) });
 
   !function(A,b,a,u,m,s){A.GoogleAnalyticsObject=a;A[a]||(A[a]=function(){
 (A[a].q=A[a].q||[]).push(arguments)});A[a].l=+new Date;m=b.createElement(u);
