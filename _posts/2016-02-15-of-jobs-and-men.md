@@ -2,7 +2,7 @@
 title: Of Jobs and Men
 layout: post
 author: Aaron
-date: 2016-02-15 14:00 -0500
+date: 2016-02-15 16:20 -0500
 categories: aaron
 tags: reallifeis dadlife worklifebalance
 ---
