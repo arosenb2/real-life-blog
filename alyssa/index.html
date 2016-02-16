@@ -112,15 +112,18 @@
 <script src="/js/vendor.min.js"></script>
 <script>
   $(function() {
-    setInterval(function() { $(".timeago").each(function(e,a) { $(a).html($.timeago($(a).attr("datetime"))) }) }, 500) });
+    (function(fn, i) { fn(); setInterval(fn, i) }(function() {
+        $(".timeago").each(function(e, a) { $(a).html($.timeago($(a).attr("datetime"))) })
+    }, 500));
 
-  !function(A,b,a,u,m,s){A.GoogleAnalyticsObject=a;A[a]||(A[a]=function(){
-(A[a].q=A[a].q||[]).push(arguments)});A[a].l=+new Date;m=b.createElement(u);
-s=b.getElementsByTagName(u)[0];m.src='//www.google-analytics.com/analytics.js';
-s.parentNode.insertBefore(m,s)}(window,document,'ga','script');
+    !function(A,b,a,u,m,s){A.GoogleAnalyticsObject=a;A[a]||(A[a]=function(){
+    (A[a].q=A[a].q||[]).push(arguments)});A[a].l=+new Date;m=b.createElement(u);
+    s=b.getElementsByTagName(u)[0];m.src='//www.google-analytics.com/analytics.js';
+    s.parentNode.insertBefore(m,s)}(window,document,'ga','script');
 
-  ga('create', 'UA-53641302-2', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-53641302-2', 'auto');
+    ga('send', 'pageview');
+  });
 </script>
 
 
