@@ -9,7 +9,13 @@ layout: default
                 <span class="posted elevate">{{ post.date | date: "%b" }} <strong>{{ post.date | date: "%-d" }}</strong></span>
             </header>
             <section itemprop="articleBody">
-                {{ post.content }}
+                {% assign wordCount = post.content | number_of_words %}
+                {% if wordCount > 100 %}
+                    {{ post.content | truncatewords:100 }}
+                    <p><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+                {% else %}
+                    {{ post.content }}
+                {% endif %}
             </section>
             <footer>
                 <span>Posted <time class="timeago" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date }}</time>{% if post.author %} by <span class="author">{{ post.author }}</span>{% endif %}</span>
