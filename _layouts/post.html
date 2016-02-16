@@ -4,7 +4,7 @@ layout: default
 <article class="{% if page.author %}{{ page.author }}{% endif %} elevate" itemscope itemtype="http://schema.org/BlogPosting">
     <header>
         <h3 itemprop="name headline"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
-        <span class="posted elevate">{{ page.date | date: "%b" }} <strong>{{ page.date | date: "%-d" }}</strong></span>
+        <span class="posted elevate">{{ page.date | date: "%b" }} <span>{{ page.date | date: "%-d" }}</span></span>
     </header>
     <section itemprop="articleBody">
         {{ content }}

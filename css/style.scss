@@ -161,10 +161,11 @@ body section.articles article {
 
             background: linear-gradient(rgb(34, 32, 144), rgb(27, 24, 115));
 
-            strong {
+            span {
                 font-weight: 100;
                 font-size: 1.5em;
                 display: block;
+                margin-top: -5px;
             }
         }
     }
