@@ -17,6 +17,7 @@ description: We hope that you will be encouraged (or at least amused...) as we t
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://reallifewiththeabaums.com" # the base hostname & protocol for your site
 permalink: :year/:month/:day/:title/index.html
+preview-cutoff: 50
 
 paginate: 3
 paginate_path: "/page/:num/"

@@ -7,8 +7,8 @@
             </header>
             <section itemprop="articleBody">
                 {% assign wordCount = post.content | number_of_words %}
-                {% if wordCount > 100 %}
-                    {{ post.content | truncatewords:100 }}
+                {% if wordCount > site.preview-cutoff %}
+                    {{ post.content | truncatewords:site.preview-cutoff }}
                     <p><a href="{{ post.url | prepend: site.baseurl | remove:'index.html' }}">Read more</a></p>
                 {% else %}
                     {{ post.content }}
