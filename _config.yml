@@ -24,7 +24,7 @@ paginate_path: "/page/:num/"
 
 categories:
     generate_all: false
-    pagination: 2
+    pagination: 3
     directory: .
     details:
       aaron:
