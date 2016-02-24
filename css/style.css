@@ -22,7 +22,7 @@ body > header {
   background: linear-gradient(#eee, rgba(240, 240, 240, 0.9)); }
   body > header h1 a {
     font-size: 1.2em;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Shadows Into Light Two', Avenir, HelveticaNeue;
     color: #000;
     text-decoration: none; }
     body > header h1 a:hover {
@@ -74,7 +74,7 @@ body section.content aside {
     background: -webkit-linear-gradient(#eee, rgba(240, 240, 240, 0.9));
     background: linear-gradient(#eee, rgba(240, 240, 240, 0.9)); }
     body section.content aside section h4 {
-      font-family: 'Shadows Into Light Two', cursive;
+      font-family: 'Shadows Into Light Two', Avenir, HelveticaNeue;
       font-size: 1.2em;
       margin-top: 0;
       padding-bottom: 1em;
@@ -108,13 +108,13 @@ body section.articles article {
     text-transform: lowercase; }
     body section.articles article header h3 a {
       font-size: 1.2em;
-      font-family: 'Shadows Into Light Two', cursive;
+      font-family: 'Shadows Into Light Two', Avenir, HelveticaNeue;
       color: #000;
       text-decoration: none; }
       body section.articles article header h3 a:hover {
         text-decoration: underline; }
     body section.articles article header span.posted {
-      font-family: 'Shadows Into Light Two', cursive;
+      font-family: 'Shadows Into Light Two', Avenir, HelveticaNeue;
       position: absolute;
       top: -60px;
       left: -60px;
