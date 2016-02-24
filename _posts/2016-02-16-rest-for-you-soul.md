@@ -10,7 +10,7 @@ What’s that burden you’re carrying? Is it a private one? One that you feel l
 
 What’s that prayer that you whisper constantly through the day? The one you’ve woken up and prayed for countless times. Over and over.
 
-What’s that thing that wearing you down? That relationship? That schedule? Those bills?
+What’s that thing that's wearing you down? That relationship? That schedule? Those bills?
 
 That thing that’s been on your mind since you saw that headline come across your newsfeed. That hope in your heart since you saw those test results. That fear that you’ve tried to squelch ever since that scary night in the ER.
 
