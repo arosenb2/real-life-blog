@@ -48,6 +48,34 @@
             <section class="articles">
                 
     
+        <article class="Alyssa elevate" itemscope itemtype="http://schema.org/BlogPosting">
+            <header>
+                <h3 itemprop="name headline"><a href="/2016/02/09/let-me-google-that-for-you/">let me Google that for you</a></h3>
+                <span class="posted elevate">Feb <span>9</span></span>
+            </header>
+            <section itemprop="articleBody">
+                
+                
+                    <p>Real life is… when you Google “toddler tantrums” but you’re not seeing anything that you haven’t already tried. (Ignoring it, not ignoring it, trying to figure out if he is still tired or hungry or probably all of it or maybe none of it, and “hey, do you want to...
+                    <p><a href="/2016/02/09/let-me-google-that-for-you/">Read more</a></p>
+                
+            </section>
+            <footer>
+                <span>Posted <time class="timeago" datetime="2016-02-09T20:20:00-05:00" itemprop="datePublished">2016-02-09 20:20:00 -0500</time> by <span class="author">Alyssa</span></span>
+                
+                <ul class="tags">
+                    
+                        <li>reallifeis</li>
+                    
+                        <li>parentingstuff</li>
+                    
+                        <li>toddlerstuff</li>
+                    
+                </ul>
+                
+            </footer>
+        </article>
+    
         <article class="Aaron elevate" itemscope itemtype="http://schema.org/BlogPosting">
             <header>
                 <h3 itemprop="name headline"><a href="/2016/02/07/baby-toots/">baby toots</a></h3>
@@ -131,6 +159,9 @@
         $(".timeago").each(function(e, a) { $(a).html($.timeago($(a).attr("datetime"))) })
     }, 500));
 
+    var $el = $("article section");
+    $el.html($el.html().replace(/\~\~(.+?)\~\~/gim, '<del>$1</del>'))
+
     !function(A,b,a,u,m,s){A.GoogleAnalyticsObject=a;A[a]||(A[a]=function(){
     (A[a].q=A[a].q||[]).push(arguments)});A[a].l=+new Date;m=b.createElement(u);
     s=b.getElementsByTagName(u)[0];m.src='//www.google-analytics.com/analytics.js';
@@ -140,7 +171,6 @@
     ga('send', 'pageview');
   });
 </script>
-
 
 </body>
 </html>
