@@ -33,7 +33,7 @@ body > header {
     h1 {
         a {
             font-size: 1.2em;
-            font-family: 'Shadows Into Light Two', cursive;
+            font-family: 'Shadows Into Light Two', Avenir, HelveticaNeue;
             color: #000;
             text-decoration: none;
 
@@ -87,7 +87,7 @@ body section.content aside {
         background: linear-gradient(#eee, $fadeTo);
 
         h4 {
-            font-family: 'Shadows Into Light Two', cursive;
+            font-family: 'Shadows Into Light Two', Avenir, HelveticaNeue;
             font-size: 1.2em;
             margin-top: 0;
             padding-bottom: 1em;
@@ -133,7 +133,7 @@ body section.articles article {
 
         h3 a {
             font-size: 1.2em;
-            font-family: 'Shadows Into Light Two', cursive;
+            font-family: 'Shadows Into Light Two', Avenir, HelveticaNeue;
             color: #000;
             text-decoration: none;
 
@@ -143,7 +143,7 @@ body section.articles article {
         }
 
         span.posted {
-            font-family: 'Shadows Into Light Two', cursive;
+            font-family: 'Shadows Into Light Two', Avenir, HelveticaNeue;
             position: absolute;
             top: -60px;
             left: -60px;
