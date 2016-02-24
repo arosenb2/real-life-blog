@@ -103,7 +103,7 @@
     }, 500));
 
     var $el = $("article section");
-    $el.html($el.html().replace(/\~\~(.+?)\~\~/gim, '<del>$1</del>'))
+    $el.each(function() { $(this).html($(this).html().replace(/\~\~(.+?)\~\~/gim, '<del>$1</del>')) })
 
     !function(A,b,a,u,m,s){A.GoogleAnalyticsObject=a;A[a]||(A[a]=function(){
     (A[a].q=A[a].q||[]).push(arguments)});A[a].l=+new Date;m=b.createElement(u);
