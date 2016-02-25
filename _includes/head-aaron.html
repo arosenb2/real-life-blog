@@ -7,8 +7,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="/css/favicon.ico?" />
     <link rel="apple-touch-icon" href="/css/logo.png" />
 
+    <meta property="og:site_name" content="{{ site.title-aaron }}" />
     <meta property="og:title" content="{{ title }}" />
+    <meta property="og:type" content="blog" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:image" content="{{ site.url }}/css/fb-logo.png" />
     {% if page.date %}
         <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
     {% endif %}
