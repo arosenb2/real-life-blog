@@ -193,6 +193,38 @@ body section.articles article {
                 display: block;
             }
         }
+
+        table {
+            margin-bottom: 1em;
+            border-collapse: collapse;
+            border: 1px solid #aaa;
+            thead tr {
+                background-color: #aaa;
+            }
+
+            tr {
+                border-bottom: 1px solid #aaa;
+            }
+
+            td {
+                padding: .25em .5em;
+                text-align: center;
+
+                &:nth-child(3) {
+                    text-align: right;
+                }
+            }
+
+            th {
+                text-align: center;
+            }
+
+            th:nth-child(2), td:nth-child(2) {
+                border-left: 1px solid #aaa;
+                border-right: 1px solid #aaa;
+            }
+
+        }
     }
 
     footer {
