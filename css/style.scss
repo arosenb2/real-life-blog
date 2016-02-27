@@ -195,7 +195,7 @@ body section.articles article {
         }
 
         table {
-            margin-bottom: 1em;
+            margin: 1em auto;
             border-collapse: collapse;
             border: 1px solid #aaa;
             thead tr {
@@ -208,20 +208,12 @@ body section.articles article {
 
             td {
                 padding: .25em .5em;
-                text-align: center;
-
-                &:nth-child(3) {
-                    text-align: right;
-                }
             }
 
-            th {
-                text-align: center;
-            }
-
-            th:nth-child(2), td:nth-child(2) {
+            th, td {
                 border-left: 1px solid #aaa;
                 border-right: 1px solid #aaa;
+                text-align: center;
             }
 
         }
@@ -317,6 +309,10 @@ body > footer {
         left: inherit;
         top: -45px;
         right: -40px;
+    }
+
+    body section.articles article section table {
+        margin: 1em -1em;
     }
 
     body section.content aside, body section.articles article footer {

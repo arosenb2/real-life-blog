@@ -14,7 +14,7 @@ This is the first of many, and I hope you enjoy every single one.
 |English|Asherism|Example|
 |-------|--------|-------|
 |Tooter|Toodeler|(*points to Addy*) Toodeler!|
-|Walk|Run|**Me**: Do you want to go for a walk? **Asher**: Run?|
+|Walk|Run|**Me**: Do you want to go for a walk?<br />**Asher**: Run?|
 |Like|Wike|I wike it!|
 |Please|Pease|Thomas? Watch? I want. Pease.|
 |Yogurt|Gurt|Gurt? I want. Pease.|
@@ -24,6 +24,6 @@ This is the first of many, and I hope you enjoy every single one.
 |Airplane|Pane|(*points up*) Pane!|
 |Lightning McQueen|Queen|Cars! Queen! Fast!|
 |Percy|Woicey|Thomas and Woicey, Thomas and Friends|
-|Frozen|Frin-in|Owaf Sven Elsa Anna Frin-in|
+|Frozen|Frin-in|Owaf, Sven, Elsa, Anna, Frin-in|
 
 Asher adds new words daily, so check back for more soon!
