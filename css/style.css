@@ -149,6 +149,24 @@ body section.articles article {
       border-radius: 2px; }
       body section.articles article section blockquote cite {
         display: block; }
+    body section.articles article section table {
+      margin-bottom: 1em;
+      border-collapse: collapse;
+      border: 1px solid #aaa; }
+      body section.articles article section table thead tr {
+        background-color: #aaa; }
+      body section.articles article section table tr {
+        border-bottom: 1px solid #aaa; }
+      body section.articles article section table td {
+        padding: .25em .5em;
+        text-align: center; }
+        body section.articles article section table td:nth-child(3) {
+          text-align: right; }
+      body section.articles article section table th {
+        text-align: center; }
+      body section.articles article section table th:nth-child(2), body section.articles article section table td:nth-child(2) {
+        border-left: 1px solid #aaa;
+        border-right: 1px solid #aaa; }
   body section.articles article footer span, body section.articles article footer time {
     display: inline-block;
     font-size: .75rem; }
