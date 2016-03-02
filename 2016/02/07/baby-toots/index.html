@@ -120,8 +120,10 @@
     s=b.getElementsByTagName(u)[0];m.src='//www.google-analytics.com/analytics.js';
     s.parentNode.insertBefore(m,s)}(window,document,'ga','script');
 
-    ga('create', 'UA-53641302-2', 'auto');
-    ga('send', 'pageview');
+    if (window.location.hostname != "localhost") {
+        ga('create', 'UA-53641302-2', 'auto');
+        ga('send', 'pageview');
+    }
   });
 </script>
 
