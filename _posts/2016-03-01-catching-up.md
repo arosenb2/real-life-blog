@@ -9,7 +9,7 @@ tags:
 
 Aaron and I are coming up on our FIFTH wedding anniversary! Five years! And whether you're a new friend or knew us even before we said, "I do," here's a little read to catch you up on what's been going on with the A'baums.
 
-We were married in my hometown in Spring 2011. Aaron accepted a job in Virginia after graduating the previous December; after our wedding he whisked me away in our carriage (also known as Ellie May, my awesome Ford Explorer) and we started our life together. It was good and it was very tough. We were a long way from any family and the only "home" I'd ever known. But we had each other and we were sure God had a plan. And He did.
+We were married in my hometown in Spring 2011. Aaron accepted a job in Virginia after graduating the previous December; after our wedding he whisked me away in our carriage (also known my awesome Ford Explorer) and we started our life together. It was good and it was very tough. We were a long way from any family and the only "home" I'd ever known. But we had each other and we were sure God had a plan. And He did.
 
 It was hard. We prayed for me a job. We prayed for an open door to move closer to home. And then... I was offered a job at our church in Children's Ministry. The day that I signed my papers, Aaron's boss called and said that we could transfer to back to Georgia within the next few months. We felt called to stay in Virginia, and I'm glad we did.
 
