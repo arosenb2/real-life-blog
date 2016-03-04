@@ -27,7 +27,7 @@ Since moving back to Georgia, I have had the opportunity to be a stay-at-home-ma
 
 I do realize our "hard" is a dream for some people. We don't take our blessings lightly and know that God has answered so many prayers to provide for and to protect our family. But no matter what the seasons in life are like or even what happens day to day, I'm so thankful to serve an awesome God who never changes. He is there to hold our hand and help us through whatever we may face (Isaiah 41:13.)
 
-So that brings us to where we are now. I'm super thankful to do life with Aaron. We've both changed a lot in the last five years, but life does that to ya. When it comes down to it, we are better together. We're also better for the people that are in our lives. Some people have been with us all along. Some we've met along the way. And some are still journeying with us. Regardless of whether we were friends for a season or remain friends today, we're thankful for what each relationship has taught us and for some really great memories made. We're looking forward doing life together and many more sweet memories to come.
+So that brings us to where we are now. I'm super thankful to do life with Aaron. We've both changed a lot in the last five years, but life does that to ya. When it comes down to it, we are better together. We're also better for the people that are in our lives. Some people have been with us all along. Some we've met along the way. And some are still journeying with us. Regardless of whether we were friends for a season or remain friends today, we're thankful for what each relationship has taught us and for some really great memories made. We're looking forward to doing life together and many more sweet memories to come.
 
 Keepin' it real and stuff,
 
